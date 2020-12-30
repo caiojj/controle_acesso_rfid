@@ -6,7 +6,7 @@
 
 ## Video demostrativo do projeto
 
-  [Clique aqui]([https://link](https://www.youtube.com/watch?v=jrNVpYFj1XA&ab_channel=CaioJunior))
+https://www.youtube.com/watch?v=jrNVpYFj1XA&ab_channel=CaioJunior
 
 ## Montagem
 
