@@ -8,6 +8,22 @@
 
 https://www.youtube.com/watch?v=jrNVpYFj1XA&ab_channel=CaioJunior
 
+## Software
+- Arduino IDE
+
+## Bibliotecas 
+- SPI.h
+- MFRC522.h
+- LiquidCrystal.h
+- SoftwareSerial.h
+
+## Componentes
+- Arduino R3
+- Conversor de Dados TTL para RS485
+- LCD 16X2
+- Modulo rele de 1 canal de 5v
+- Modulo RFID modelo RC522
+
 ## Montagem
 
 ### Pinos leitor RFID X Arduino
