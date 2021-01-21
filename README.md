@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=jrNVpYFj1XA&ab_channel=CaioJunior
 ## Componentes
 - Arduino R3
 - Conversor de Dados TTL para RS485
+- Conversor USB para RS485
 - LCD 16X2
 - Modulo rele de 1 canal de 5v
 - Modulo RFID modelo RC522
@@ -47,11 +48,17 @@ SPI SCK   |  SCK        |   13 / ICSP-3
   RS         |   08
 
 ### Pinos Conversor TTL X Arduino
-   Conversor      |   Arduino
+ Conversor   |   Arduino
  ----------- | ---------
   DE/RE      |   03
   DI         |   A4
   RO         |   A5
+
+### Pinos Conversor TTL para RS485 X  Conversor USB para RS485
+Conversor TTL| Conversor USB para RS485 
+ ----------- | ---------
+  A          |   A
+  B          |   B
 
 ### Pinos Rele X Arduino
    Rele      |   Arduino | Função
