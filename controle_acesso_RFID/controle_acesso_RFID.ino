@@ -32,7 +32,7 @@ void setup()
 	analogWrite(6, 99); // ESCREVE O VALOR 99 NA PORTA 6 (CONTROLE DO CONTRASTE VIA PWM)
 	pinMode(SerialControleBi, OUTPUT);
 	pinMode(SerialControleBi, transmitir); // inicializa envio de dados da IHM para serial
-	RS485Serial.begin(115600);
+	RS485Serial.begin(115200);
 }
 
 // ===================================================================================
