@@ -65,11 +65,11 @@ void loop()
 
 	pinMode(SerialControleBi, receber); // inicializa recebimento da tag
 
-	RS485Serial.println(Exibir_Tag()); // exibe a tag 
+	RS485Serial.print(Exibir_Tag()); // exibe a tag 
 
 	pinMode(SerialControleBi, transmitir); // muda estado da transmissão de dados. IHM para serial
 
-	// espera o Supervisorio responda a solicitação
+	// espera o Supervisorio responder a solicitação
 	while (esperaDados != 30000)
 	{
 			// Libera ou não, com basse o retorno dado pelo sepervisorio
